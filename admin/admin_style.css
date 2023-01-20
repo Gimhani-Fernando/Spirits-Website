@@ -1,0 +1,64 @@
+body{
+
+	box-sizing:border-box;
+	background-color: rgb(177, 175, 175);
+}
+
+header{
+	display: flex;
+	align-items: centre;
+	padding: 5px;
+	background-color: black;
+}
+
+.logo{
+    width: 1%;
+    height: 1%;
+}
+
+.nav{
+	flex:1;
+	text-align:right;
+	font-size: 18px;
+	padding: 10px;
+}
+.nav ul{
+	display: inline-block;
+	list-style-type:none;	
+}
+.nav ul li{
+	display: inline-block;
+	margin: 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.insert_product{
+	padding: 5px;
+	margin: 5px;
+	justify-content: center;
+}
+
+.insert_product_form{
+	padding: 5px;
+	margin: 50px;
+	border: 2px white;
+	background: rgb(197, 186, 186);
+	font-size: 15px;
+
+}
+
+
+
+footer{
+	padding: 5px;
+	background-color: black;
+	font-family: "Open Sans";
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: grey;
+
+}
